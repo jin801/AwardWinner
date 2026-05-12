@@ -1,0 +1,194 @@
+{
+  "sections": {
+    "hero": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shipping Policy",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We want your gifts to arrive on time, every time. Here's everything you need to know about how we ship.</p>"
+          }
+        }
+      },
+      "block_order": ["heading", "text"],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "free-shipping-callout": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shipping Rates Calculated at Checkout",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shipping rates are calculated at checkout based on your delivery address and selected shipping method. Review the available options before placing your order.</p>"
+          }
+        }
+      },
+      "block_order": ["heading", "text"],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "shipping-options": {
+      "type": "multicolumn",
+      "blocks": {
+        "standard": {
+          "type": "column",
+          "settings": {
+            "title": "Standard Shipping",
+            "text": "<p><strong>5–10 business days</strong></p><p>The most economical option. Orders are shipped via standard carrier services. Tracking included on all orders.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "express": {
+          "type": "column",
+          "settings": {
+            "title": "Express Shipping",
+            "text": "<p><strong>2–3 business days</strong></p><p>Need it fast? Select express shipping at checkout for priority handling and faster delivery. Additional fees apply.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "international": {
+          "type": "column",
+          "settings": {
+            "title": "International Shipping",
+            "text": "<p><strong>10–21 business days</strong></p><p>We ship worldwide. Customs duties and import taxes may apply depending on your country and are the buyer's responsibility.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["standard", "express", "international"],
+      "settings": {
+        "title": "Shipping Options",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "shipping-details": {
+      "type": "collapsible-content",
+      "blocks": {
+        "processing": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Order Processing Times",
+            "icon": "clipboard",
+            "row_content": "<p>All orders are processed within <strong>1–2 business days</strong> (Monday–Friday, excluding public holidays). You'll receive a shipping confirmation email with tracking details once your order leaves our warehouse.</p><p>Orders placed on weekends or public holidays will begin processing the next business day.</p>"
+          }
+        },
+        "tracking": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Tracking Your Order",
+            "icon": "check_mark",
+            "row_content": "<p>Every order includes a tracking number sent to your email address once shipped. Click the link in your shipping confirmation to track your package in real time. If you haven't received a tracking email within 3 business days of ordering, please check your spam folder or <a href='/pages/contact'>contact us</a>.</p>"
+          }
+        },
+        "delays": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What About Delays?",
+            "icon": "question_mark",
+            "row_content": "<p>While we always strive to meet our delivery estimates, occasional delays may occur due to high order volumes, severe weather, or carrier issues. During peak seasons (Christmas, Valentine's Day, Mother's Day), we recommend ordering at least 2 weeks in advance to ensure on-time delivery.</p><p>If your order is significantly delayed, please <a href='/pages/contact'>contact us</a> and we'll investigate with the carrier on your behalf.</p>"
+          }
+        },
+        "address": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Incorrect Shipping Address",
+            "icon": "map_pin",
+            "row_content": "<p>Please double-check your shipping address before completing your order. We are not responsible for orders delivered to an incorrectly entered address. If you notice an error immediately after placing your order, <a href='/pages/contact'>contact us right away</a> and we'll do our best to correct it before shipping.</p>"
+          }
+        },
+        "lost": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Lost or Missing Packages",
+            "icon": "box",
+            "row_content": "<p>If your tracking shows your package as delivered but you haven't received it, please first check with neighbours and any safe drop locations. If it still can't be found after 2 business days, <a href='/pages/contact'>contact us</a> and we'll file a claim with the carrier and arrange a replacement or refund.</p>"
+          }
+        }
+      },
+      "block_order": ["processing", "tracking", "delays", "address", "lost"],
+      "settings": {
+        "caption": "",
+        "heading": "Shipping Details",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "padding_top": 36,
+        "padding_bottom": 48
+      }
+    },
+    "cta": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Questions About Your Order?",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our team is available to help with any shipping questions. We respond within 1 business day.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify://pages/contact"
+          }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": ["hero", "free-shipping-callout", "shipping-options", "shipping-details", "cta"]
+}

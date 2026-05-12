@@ -1,0 +1,262 @@
+{
+  "sections": {
+    "hero": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Frequently Asked Questions",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Can't find what you're looking for? <a href='/pages/contact'>Contact us</a> — we're happy to help.</p>"
+          }
+        }
+      },
+      "block_order": ["heading", "text"],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "faq-shipping": {
+      "type": "collapsible-content",
+      "blocks": {
+        "q1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much does shipping cost?",
+            "icon": "truck",
+            "row_content": "<p>Shipping rates are calculated at checkout based on your location and selected delivery method.</p>"
+          }
+        },
+        "q2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does delivery take?",
+            "icon": "truck",
+            "row_content": "<p>Standard shipping typically takes <strong>5–10 business days</strong>. Expedited shipping options (2–3 business days) are available at checkout for an additional fee. Processing time is 1–2 business days before your order ships.</p>"
+          }
+        },
+        "q3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you ship internationally?",
+            "icon": "plane",
+            "row_content": "<p>Yes, we ship to many countries worldwide. International shipping times vary by destination — typically <strong>10–21 business days</strong>. Please note that customers are responsible for any customs duties or import taxes that may apply in their country.</p>"
+          }
+        },
+        "q4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I track my order?",
+            "icon": "check_mark",
+            "row_content": "<p>Once your order ships, you'll receive a confirmation email with a tracking number. You can use this to track your package directly on the carrier's website. If you haven't received a tracking email within 3 business days of your order, please check your spam folder or <a href='/pages/contact'>contact us</a>.</p>"
+          }
+        },
+        "q5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if my package arrives damaged?",
+            "icon": "box",
+            "row_content": "<p>We're so sorry if that happens! Please <a href='/pages/contact'>contact us</a> within 48 hours of delivery with a photo of the damaged item and packaging. We'll arrange a replacement or full refund at no cost to you — no need to return the damaged item.</p>"
+          }
+        }
+      },
+      "block_order": ["q1", "q2", "q3", "q4", "q5"],
+      "settings": {
+        "caption": "",
+        "heading": "Shipping & Delivery",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "faq-orders": {
+      "type": "collapsible-content",
+      "blocks": {
+        "q6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What payment methods do you accept?",
+            "icon": "price_tag",
+            "row_content": "<p>We accept all major credit cards (Visa, Mastercard, American Express), PayPal, Apple Pay, Google Pay, and Shop Pay. All transactions are secured with SSL encryption.</p>"
+          }
+        },
+        "q7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I change or cancel my order?",
+            "icon": "clipboard",
+            "row_content": "<p>We begin processing orders quickly, so changes may not always be possible. Please <a href='/pages/contact'>contact us immediately</a> after placing your order if you need to make changes. If your order has already been shipped, you can return it once received.</p>"
+          }
+        },
+        "q8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is it safe to shop on your website?",
+            "icon": "lock",
+            "row_content": "<p>Absolutely. Our website uses industry-standard SSL encryption to protect your personal and payment information. We never store your full credit card details. Shopping with ModernTimez is completely secure.</p>"
+          }
+        },
+        "q9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer gift cards?",
+            "icon": "price_tag",
+            "row_content": "<p>Yes! Gift cards are available in multiple denominations and make a wonderful present when you're not sure what to choose. They're delivered digitally by email and never expire. <a href='/products/gift-card'>Browse our gift cards here</a>.</p>"
+          }
+        }
+      },
+      "block_order": ["q6", "q7", "q8", "q9"],
+      "settings": {
+        "caption": "",
+        "heading": "Orders & Payments",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "faq-returns": {
+      "type": "collapsible-content",
+      "blocks": {
+        "q10": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your return policy?",
+            "icon": "return",
+            "row_content": "<p>We accept returns within <strong>30 days</strong> of delivery for items in their original, unused condition and packaging. To start a return, please <a href='/pages/contact'>contact us</a> with your order number. We'll send you a prepaid return label.</p>"
+          }
+        },
+        "q11": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does a refund take?",
+            "icon": "check_mark",
+            "row_content": "<p>Once we receive your returned item, we'll inspect it and process your refund within <strong>3–5 business days</strong>. Refunds are issued to the original payment method. Depending on your bank, it may take an additional 5–10 business days to appear on your statement.</p>"
+          }
+        },
+        "q12": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What items cannot be returned?",
+            "icon": "question_mark",
+            "row_content": "<p>For hygiene and safety reasons, the following items are non-returnable: personalized or custom-engraved products, digital items (gift cards), and items that have been used or opened. Sale items are final sale unless they arrive damaged or defective.</p>"
+          }
+        }
+      },
+      "block_order": ["q10", "q11", "q12"],
+      "settings": {
+        "caption": "",
+        "heading": "Returns & Exchanges",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "faq-gifting": {
+      "type": "collapsible-content",
+      "blocks": {
+        "q13": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer gift wrapping?",
+            "icon": "box",
+            "row_content": "<p>Yes! We offer beautiful gift wrapping for a small additional fee. You can add gift wrapping to your order at checkout. We'll present your item in elegant tissue paper inside a branded gift box, tied with a ribbon — ready to give.</p>"
+          }
+        },
+        "q14": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I include a personalized gift message?",
+            "icon": "heart",
+            "row_content": "<p>Absolutely. During checkout, there's a field where you can add a personal message. We'll print it on a gift card and include it with your order. There's no extra charge for the message.</p>"
+          }
+        },
+        "q15": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you ship directly to the gift recipient?",
+            "icon": "truck",
+            "row_content": "<p>Yes! Simply enter the recipient's address as the shipping address at checkout, and add a gift message so they know who it's from. We do not include any pricing or invoices inside the package — everything goes to the email address you provide at checkout.</p>"
+          }
+        },
+        "q16": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I need help finding the perfect gift — can you help?",
+            "icon": "chat_bubble",
+            "row_content": "<p>We'd love to help! <a href='/pages/contact'>Send us a message</a> with a little info about the person (their interests, age, the occasion, your budget) and we'll suggest the perfect gift. We offer this personal shopping service completely free of charge.</p>"
+          }
+        }
+      },
+      "block_order": ["q13", "q14", "q15", "q16"],
+      "settings": {
+        "caption": "",
+        "heading": "Gifting Questions",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cta": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Still have questions?",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our team is here to help. Drop us a message and we'll get back to you within 1 business day.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify://pages/contact"
+          }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": ["hero", "faq-shipping", "faq-orders", "faq-returns", "faq-gifting", "cta"]
+}

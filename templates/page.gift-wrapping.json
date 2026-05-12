@@ -1,0 +1,118 @@
+{
+  "sections": {
+    "hero": {
+      "type": "rich-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "We Do the Work",
+            "text_style": "subtitle"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Beautiful Gift Wrapping, Included",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We believe the presentation is part of the gift. That's why we offer premium gift wrapping so your order arrives ready to give — no scissors, tape, or stress required.</p>"
+          }
+        }
+      },
+      "block_order": ["caption", "heading", "text"],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "how-it-works": {
+      "type": "multicolumn",
+      "blocks": {
+        "step-1": {
+          "type": "column",
+          "settings": {
+            "title": "1. Add Gift Wrapping",
+            "text": "<p>At checkout, simply check the \"Gift Wrapping\" option and select your preferred wrapping style. Add a personal message to include with your gift.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "step-2": {
+          "type": "column",
+          "settings": {
+            "title": "2. We Wrap It Beautifully",
+            "text": "<p>Your item is wrapped in premium tissue paper, placed in a branded ModernTimez gift box, and tied with a satin ribbon. Your personal message is printed on a gift card inside.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "step-3": {
+          "type": "column",
+          "settings": {
+            "title": "3. Delivered Gift-Ready",
+            "text": "<p>Your beautifully wrapped gift ships directly to you or straight to your recipient. No prices or invoices are included — just pure gifting joy.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["step-1", "step-2", "step-3"],
+      "settings": {
+        "title": "How It Works",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "details": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wrapping Details",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>What's included:</strong></p><ul><li>Premium tissue paper in your choice of colour</li><li>Branded ModernTimez gift box</li><li>Satin ribbon and bow</li><li>Printed gift card with your personal message (up to 200 characters)</li></ul><p><strong>No pricing, no invoices</strong> — we never include pricing information in gift shipments. Your recipient will only see your thoughtful gift and message.</p><p><strong>Ships directly to recipient</strong> — just enter their address at checkout. Perfect for sending gifts across the country or internationally.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop & Add Gift Wrapping",
+            "button_link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": ["hero", "how-it-works", "details"]
+}

@@ -1,0 +1,89 @@
+{
+  "sections": {
+    "hero": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "We'd Love to Hear From You",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Have a question about an order, need gift advice, or just want to say hello? We're here and happy to help. We aim to respond to all enquiries within <strong>1 business day</strong>.</p>"
+          }
+        }
+      },
+      "block_order": ["heading", "text"],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "contact-methods": {
+      "type": "multicolumn",
+      "blocks": {
+        "email": {
+          "type": "column",
+          "settings": {
+            "title": "Email Us",
+            "text": "<p>Send us a message anytime. We read every email and respond within 1 business day (Monday–Friday).</p><p>For order enquiries, please include your order number.</p>",
+            "link_label": "Send a Message",
+            "link": "#contact-form"
+          }
+        },
+        "social": {
+          "type": "column",
+          "settings": {
+            "title": "Find Us on Facebook",
+            "text": "<p>Follow us on Facebook for new arrivals, gift ideas, and exclusive deals. You can also send us a message directly through our Facebook page.</p>",
+            "link_label": "Visit Our Facebook",
+            "link": "https://www.facebook.com/ModernTimezGift"
+          }
+        },
+        "faq": {
+          "type": "column",
+          "settings": {
+            "title": "Check Our FAQ",
+            "text": "<p>Many common questions about shipping, returns, and gifting are answered in our FAQ. You might find your answer there instantly.</p>",
+            "link_label": "Read the FAQ",
+            "link": "shopify://pages/faq"
+          }
+        }
+      },
+      "block_order": ["email", "social", "faq"],
+      "settings": {
+        "title": "Ways to Reach Us",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Send Us a Message",
+        "heading_size": "h2",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": ["hero", "contact-methods", "form"]
+}

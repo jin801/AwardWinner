@@ -1,0 +1,171 @@
+{
+  "sections": {
+    "hero": {
+      "type": "rich-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "Our Story",
+            "text_style": "subtitle"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gifts That Mean Something",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ModernTimez was born from a simple idea: finding the perfect gift should be a joy, not a chore. We curate modern, thoughtful gifts for every person and every occasion — from birthdays to weddings, holidays to \"just because\" moments.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop All Gifts",
+            "button_link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": ["caption", "heading", "text", "button"],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "story": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "Who We Are",
+            "text_style": "subtitle"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Modern Gifts for Modern People",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We started ModernTimez Gift Shop because we were tired of gifting the same generic candles and gift sets. Every product in our collection is hand-selected for quality, uniqueness, and that \"wow\" factor that makes a gift truly memorable.</p><p>From sleek home accessories to personalized keepsakes, our range spans every budget and every taste. Whether you're shopping for your best friend, your boss, or someone who \"has everything\" — we've got something that will make them smile.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore Our Collection",
+            "button_link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": ["caption", "heading", "text", "button"],
+      "settings": {
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "values": {
+      "type": "multicolumn",
+      "blocks": {
+        "col-1": {
+          "type": "column",
+          "settings": {
+            "title": "Carefully Curated",
+            "text": "<p>Every item in our store is hand-picked by our team. We test, assess, and select only products that we'd be proud to give to the people we love.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "col-2": {
+          "type": "column",
+          "settings": {
+            "title": "Modern & Unique",
+            "text": "<p>We stay ahead of trends to bring you gifts that feel fresh and contemporary — never generic, never forgettable. Find things here that you won't find at the mall.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "col-3": {
+          "type": "column",
+          "settings": {
+            "title": "Always Memorable",
+            "text": "<p>The best gifts are ones that people remember years later. We focus on items with lasting value — things that are used, displayed, or treasured long after the wrapping paper is gone.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["col-1", "col-2", "col-3"],
+      "settings": {
+        "title": "What Makes Us Different",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "promise": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Promise to You",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We stand behind every product we sell. If you're not completely satisfied with your purchase, we make returns easy and hassle-free. Our team is always available to help you find the perfect gift.</p><p>Thank you for choosing ModernTimez. We're honoured to be part of your special moments.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get in Touch",
+            "button_link": "shopify://pages/contact"
+          }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": ["hero", "story", "values", "promise"]
+}

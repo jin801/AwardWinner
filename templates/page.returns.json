@@ -1,0 +1,177 @@
+{
+  "sections": {
+    "hero": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Returns & Refund Policy",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We want you to love every purchase. If something isn't right, we'll make it right — quickly and without hassle.</p>"
+          }
+        }
+      },
+      "block_order": ["heading", "text"],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "how-it-works": {
+      "type": "multicolumn",
+      "blocks": {
+        "step-1": {
+          "type": "column",
+          "settings": {
+            "title": "1. Contact Us",
+            "text": "<p>Email us or use our contact form with your order number and reason for return. We'll respond within 1 business day with a prepaid return label.</p>",
+            "link_label": "Contact Us",
+            "link": "shopify://pages/contact"
+          }
+        },
+        "step-2": {
+          "type": "column",
+          "settings": {
+            "title": "2. Ship It Back",
+            "text": "<p>Pack the item securely in its original packaging and drop it off at any carrier location. Use the prepaid label we send you — returns are free.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "step-3": {
+          "type": "column",
+          "settings": {
+            "title": "3. Get Your Refund",
+            "text": "<p>Once we receive and inspect the item, your refund is processed within 3–5 business days back to your original payment method. Simple.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["step-1", "step-2", "step-3"],
+      "settings": {
+        "title": "How Returns Work",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "policy-details": {
+      "type": "collapsible-content",
+      "blocks": {
+        "eligibility": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Return Eligibility",
+            "icon": "check_mark",
+            "row_content": "<p>Items are eligible for return if:</p><ul><li>The return is requested within <strong>30 days</strong> of the delivery date</li><li>The item is in its original, unused condition</li><li>The item is in its original packaging with all tags attached</li><li>The item is not on our non-returnable list (see below)</li></ul>"
+          }
+        },
+        "non-returnable": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Non-Returnable Items",
+            "icon": "question_mark",
+            "row_content": "<p>For hygiene and quality reasons, the following items <strong>cannot be returned</strong>:</p><ul><li>Personalized or custom-engraved products</li><li>Digital products (gift cards)</li><li>Items that have been used, opened, or damaged by the customer</li><li>Sale or clearance items (marked as final sale)</li><li>Intimate or sanitary goods</li></ul>"
+          }
+        },
+        "refunds": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Refunds & Processing Time",
+            "icon": "price_tag",
+            "row_content": "<p>Once we receive your returned item, we'll inspect it within <strong>1–2 business days</strong>. If approved, your refund will be processed within <strong>3–5 business days</strong> to your original payment method.</p><p>Depending on your bank or card issuer, it may take an additional 5–10 business days for the refund to appear on your statement. You'll receive an email confirmation when your refund is processed.</p>"
+          }
+        },
+        "exchanges": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Exchanges",
+            "icon": "return",
+            "row_content": "<p>If you'd like to exchange an item for a different size, colour, or product, the easiest way is to return the original item and place a new order. This ensures you get your new item as quickly as possible without waiting for the exchange process.</p><p><a href='/pages/contact'>Contact us</a> and we'll do everything we can to make the process smooth.</p>"
+          }
+        },
+        "damaged": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Damaged or Defective Items",
+            "icon": "box",
+            "row_content": "<p>If your item arrives damaged or defective, please <a href='/pages/contact'>contact us within 48 hours of delivery</a> with a photo of the damage. We will arrange a free replacement or full refund — no return necessary for damaged goods.</p>"
+          }
+        },
+        "gifts": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Returning a Gift",
+            "icon": "heart",
+            "row_content": "<p>Received a ModernTimez gift that isn't quite right? We'd love to help you find something perfect. <a href='/pages/contact'>Contact us</a> with the order number (available on the packing slip) and we'll arrange a return or exchange. Refunds for gift returns are issued as store credit to the gift recipient.</p>"
+          }
+        }
+      },
+      "block_order": ["eligibility", "non-returnable", "refunds", "exchanges", "damaged", "gifts"],
+      "settings": {
+        "caption": "",
+        "heading": "Full Policy Details",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "padding_top": 36,
+        "padding_bottom": 48
+      }
+    },
+    "cta": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to Start a Return?",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Just send us a message with your order number and we'll take care of the rest. We typically respond within 1 business day.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start a Return",
+            "button_link": "shopify://pages/contact"
+          }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": ["hero", "how-it-works", "policy-details", "cta"]
+}
