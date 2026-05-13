@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Shopify CLI
+.shopify/
+shopify.theme.toml
+*.log
+
+# Node (if using theme dev tools)
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Deploy tool binary (built from deploy.go)
+deploy
+deploy.exe

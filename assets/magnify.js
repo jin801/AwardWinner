@@ -2,7 +2,7 @@
 function createOverlay(image) {
   const overlayImage = document.createElement('img');
   overlayImage.setAttribute('src', `${image.src}`);
-  overlay = document.createElement('div');
+  const overlay = document.createElement('div');
   prepareOverlay(overlay, overlayImage);
 
   image.style.opacity = '50%';
@@ -29,7 +29,7 @@ function toggleLoadingSpinner(image) {
   loadingSpinner.classList.toggle('hidden');
 }
 
-function moveWithHover(image, event, zoomRatio) {
+function moveWithHover(image, event, zoomRatio, overlay) {
   // calculate mouse position
   const ratio = image.height / image.width;
   const container = event.target.getBoundingClientRect();
@@ -46,7 +46,7 @@ function moveWithHover(image, event, zoomRatio) {
 function magnify(image, zoomRatio) {
   const overlay = createOverlay(image);
   overlay.onclick = () => overlay.remove();
-  overlay.onmousemove = (event) => moveWithHover(image, event, zoomRatio);
+  overlay.onmousemove = (event) => moveWithHover(image, event, zoomRatio, overlay);
   overlay.onmouseleave = () => overlay.remove();
 }
 

@@ -1,0 +1,47 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": {{ shop.name | json }},
+    "url": {{ shop.url | json }},
+    "sameAs": ["https://www.facebook.com/ModernTimezGift"]
+    {%- if settings.favicon != blank -%}
+    ,"logo": "{{ settings.favicon | image_url: width: 512 }}"
+    {%- endif -%}
+  }
+</script>
+
+{%- if request.page_type == 'article' -%}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": {{ article.title | json }},
+    "datePublished": "{{ article.published_at | date: '%Y-%m-%dT%H:%M:%SZ' }}",
+    "dateModified": "{{ article.updated_at | date: '%Y-%m-%dT%H:%M:%SZ' }}",
+    "author": { "@type": "Organization", "name": {{ shop.name | json }} },
+    "publisher": { "@type": "Organization", "name": {{ shop.name | json }}, "url": {{ shop.url | json }} },
+    "description": {{ article.excerpt_or_content | strip_html | truncate: 200 | json }}
+  }
+</script>
+{%- endif -%}
+
+{%- if request.page_type == 'product' -%}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": {{ product.title | json }},
+    "description": {{ product.description | strip_html | truncate: 300 | json }},
+    "url": "{{ shop.url }}{{ product.url }}",
+    "sku": {{ product.selected_or_first_available_variant.sku | json }},
+    "offers": {
+      "@type": "Offer",
+      "price": "{{ product.price | money_without_currency }}",
+      "priceCurrency": {{ cart.currency.iso_code | json }},
+      "availability": "{% if product.available %}https://schema.org/InStock{% else %}https://schema.org/OutOfStock{% endif %}",
+      "url": "{{ shop.url }}{{ product.url }}"
+    }
+  }
+</script>
+{%- endif -%}

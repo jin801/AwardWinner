@@ -1,1 +1,287 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slide-2":{"type":"slide","settings":{"image":"shopify://shop_images/e9bc396a-16c3-43c1-9033-25436a9dc85d.png","image_overlay_opacity":30,"heading":"","heading_size":"h2","subheading":"","button_label":"","link":"","button_style_secondary":false,"show_text_box":false,"box_align":"middle-center","text_alignment":"center","text_alignment_mobile":"center","color_scheme":"scheme-3"}}},"block_order":["slide-2"],"settings":{"layout":"full_bleed","slide_height":"large","slider_visual":"dots","auto_rotate":true,"change_slides_speed":5,"image_behavior":"none","show_text_below":false,"accessibility_info":"ModernTimez Gift Shop — Featured Gifts Slideshow"}},"trust-badges":{"type":"multicolumn","blocks":{"badge-1":{"type":"column","settings":{"title":"Premium Awards for Every Achievement","text":"<p><br/><br/>Custom engraved trophies, plaques, crystal awards, and corporate gifts for businesses, schools, churches, and organizations.<br/><br/><br/></p>","link_label":"Shop Awards","link":"shopify://pages/shipping"}},"badge-2":{"type":"column","settings":{"title":"Beautiful Gift Wrapping","text":"<p>Add premium gift wrapping at checkout. We'll handle the presentation so you don't have to.</p>","link_label":"Request Quote","link":"shopify://pages/gift-wrapping"}},"badge-3":{"type":"column","settings":{"title":"Recognize Excellence with Lasting Craftsmanship","text":"<p><br/>Premium awards and corporate gifts expertly engraved since 2006 for moments that deserve to be remembered.<br/><br/></p>","link_label":"Start Bulk Order","link":"shopify://pages/returns"}}},"block_order":["badge-1","badge-2","badge-3"],"settings":{"title":"","heading_size":"h2","image_width":"third","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":3,"column_alignment":"center","background_style":"primary","color_scheme":"scheme-2","columns_mobile":"1","swipe_on_mobile":false,"padding_top":40,"padding_bottom":40}},"featured-collection":{"type":"featured-collection","settings":{"collection":"frontpage","products_to_show":6,"title":"Featured Gifts","heading_size":"h2","description":"","show_description":false,"description_style":"body","columns_desktop":3,"enable_desktop_slider":false,"full_width":false,"show_view_all":true,"view_all_style":"solid","color_scheme":"scheme-1","image_ratio":"square","image_shape":"default","show_secondary_image":true,"show_vendor":true,"show_rating":true,"quick_add":"none","columns_mobile":"2","swipe_on_mobile":true,"padding_top":48,"padding_bottom":36}},"shop-by-occasion":{"type":"multicolumn","blocks":{"baptism":{"type":"column","settings":{"title":"Baptism Gifts","text":"<p>Meaningful keepsakes and faith-inspired gifts for baptisms and christenings.</p>","link_label":"Shop Baptism","link":"/search?q=baptism"}},"graduation":{"type":"column","settings":{"title":"Graduation Gifts","text":"<p>Celebrate big achievements with memorable gifts for graduates.</p>","link_label":"Shop Graduation","link":"/search?q=graduation"}},"fathers_day":{"type":"column","settings":{"title":"Father's Day Gifts","text":"<p>Thoughtful gifts for dads, grandfathers, and father figures.</p>","link_label":"Shop Father's Day","link":"/search?q=father%27s%20day"}},"wedding":{"type":"column","settings":{"title":"Wedding Gifts","text":"<p>Elegant gifts for couples, wedding parties, and special celebrations.</p>","link_label":"Shop Wedding","link":"/search?q=wedding"}},"corporate":{"type":"column","settings":{"title":"Corporate Awards & Gifts","text":"<p>Awards, plaques, and professional gifts for teams, clients, and events.</p>","link_label":"Shop Corporate","link":"/search?q=corporate%20awards%20gifts"}}},"block_order":["baptism","graduation","fathers_day","wedding","corporate"],"settings":{"title":"Shop by Occasion","heading_size":"h2","image_width":"third","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":5,"column_alignment":"center","background_style":"primary","color_scheme":"scheme-2","columns_mobile":"1","swipe_on_mobile":true,"padding_top":48,"padding_bottom":48}},"testimonials":{"type":"multicolumn","blocks":{"review-1":{"type":"column","settings":{"title":"⭐⭐⭐⭐⭐ — Sarah M.","text":"<p>\"I ordered a birthday gift and was blown away by how beautifully it was wrapped. My friend said it was the best present she received all year. Will definitely shop here again!\"</p>","link_label":"","link":""}},"review-2":{"type":"column","settings":{"title":"⭐⭐⭐⭐⭐ — James T.","text":"<p>\"Finally found a gift shop with genuinely unique items. Everything is so modern and well-made. The shipping was fast and the gift wrapping was stunning. Highly recommend.\"</p>","link_label":"","link":""}},"review-3":{"type":"column","settings":{"title":"⭐⭐⭐⭐⭐ — Linda K.","text":"<p>\"I had no idea what to get my husband for our anniversary, so I messaged ModernTimez for advice. They replied within hours with the perfect suggestion. Outstanding service!\"</p>","link_label":"","link":""}}},"block_order":["review-1","review-2","review-3"],"settings":{"title":"What Our Customers Say","heading_size":"h2","image_width":"third","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":3,"column_alignment":"center","background_style":"none","color_scheme":"scheme-1","columns_mobile":"1","swipe_on_mobile":true,"padding_top":48,"padding_bottom":48}},"gift-guide-cta":{"type":"rich-text","blocks":{"heading":{"type":"heading","settings":{"heading":"Not Sure What to Get?","heading_size":"h2"}},"text":{"type":"text","settings":{"text":"<p>Our team loves helping people find the perfect gift. Tell us about the person, the occasion, and your budget — and we'll do the rest. Completely free, always personal.</p>"}},"button":{"type":"button","settings":{"button_label":"Ask for Gift Advice","button_link":"shopify://pages/contact","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading","text","button"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"scheme-3","full_width":true,"padding_top":60,"padding_bottom":60}}},"order":["slideshow","trust-badges","featured-collection","shop-by-occasion","testimonials","gift-guide-cta"]}
+{
+  "sections": {
+    "awards-hero": {
+      "type": "awards-hero",
+      "settings": {
+        "image_asset": "awards-hero.png",
+        "image_alt": "Crystal trophies and engraved plaques displayed on a dark marble surface",
+        "eyebrow": "Custom awards and recognition gifts",
+        "heading": "Honor every achievement with a lasting award",
+        "text": "<p>Celebrate your team, clients, students, and standout performers with beautifully crafted trophies, plaques, crystal awards, and personalized recognition gifts made to feel as meaningful as the moment.</p>",
+        "button_label": "Shop Awards",
+        "button_link": "/collections/frontpage",
+        "button_label_2": "Request a Quote",
+        "button_link_2": "/pages/contact",
+        "color_scheme": "scheme-3"
+      }
+    },
+    "trust-badges": {
+      "type": "multicolumn",
+      "blocks": {
+        "badge-1": {
+          "type": "column",
+          "settings": {
+            "title": "Premium Awards for Every Achievement",
+            "text": "<p>Custom engraved trophies, plaques, crystal awards, and corporate gifts for businesses, schools, churches, and organizations.</p>",
+            "link_label": "Shop Awards",
+            "link": "/collections/all"
+          }
+        },
+        "badge-2": {
+          "type": "column",
+          "settings": {
+            "title": "Beautiful Gift Wrapping",
+            "text": "<p>Add premium gift wrapping at checkout. We'll handle the presentation so you don't have to.</p>",
+            "link_label": "Learn More",
+            "link": "shopify://pages/gift-wrapping"
+          }
+        },
+        "badge-3": {
+          "type": "column",
+          "settings": {
+            "title": "Recognize Excellence with Lasting Craftsmanship",
+            "text": "<p>Premium awards and corporate gifts expertly engraved since 2006 for moments that deserve to be remembered.</p>",
+            "link_label": "Request Bulk Quote",
+            "link": "shopify://pages/contact"
+          }
+        }
+      },
+      "block_order": [
+        "badge-1",
+        "badge-2",
+        "badge-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "frontpage",
+        "products_to_show": 6,
+        "title": "Our Most Loved Gifts",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 3,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "shop-by-occasion": {
+      "type": "multicolumn",
+      "blocks": {
+        "baptism": {
+          "type": "column",
+          "settings": {
+            "title": "Baptism Gifts",
+            "text": "<p>Meaningful keepsakes and faith-inspired gifts for baptisms and christenings.</p>",
+            "link_label": "Shop Baptism",
+            "link": "/collections/baptism-gifts"
+          }
+        },
+        "graduation": {
+          "type": "column",
+          "settings": {
+            "title": "Graduation Gifts",
+            "text": "<p>Celebrate big achievements with memorable gifts for graduates.</p>",
+            "link_label": "Shop Graduation",
+            "link": "/collections/graduation-gifts"
+          }
+        },
+        "fathers_day": {
+          "type": "column",
+          "settings": {
+            "title": "Father's Day Gifts",
+            "text": "<p>Thoughtful gifts for dads, grandfathers, and father figures.</p>",
+            "link_label": "Shop Father's Day",
+            "link": "/collections/fathers-day-gifts"
+          }
+        },
+        "wedding": {
+          "type": "column",
+          "settings": {
+            "title": "Wedding Gifts",
+            "text": "<p>Elegant gifts for couples, wedding parties, and special celebrations.</p>",
+            "link_label": "Shop Wedding",
+            "link": "/collections/wedding-gifts"
+          }
+        },
+        "corporate": {
+          "type": "column",
+          "settings": {
+            "title": "Corporate Awards & Gifts",
+            "text": "<p>Awards, plaques, and professional gifts for teams, clients, and events.</p>",
+            "link_label": "Shop Corporate",
+            "link": "/collections/corporate-awards"
+          }
+        }
+      },
+      "block_order": [
+        "baptism",
+        "graduation",
+        "fathers_day",
+        "wedding",
+        "corporate"
+      ],
+      "settings": {
+        "title": "Shop by Occasion",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "testimonials": {
+      "type": "multicolumn",
+      "blocks": {
+        "review-1": {
+          "type": "column",
+          "settings": {
+            "title": "⭐⭐⭐⭐⭐ — Sarah M.",
+            "text": "<p>\"I ordered a birthday gift and was blown away by how beautifully it was wrapped. My friend said it was the best present she received all year. Will definitely shop here again!\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "review-2": {
+          "type": "column",
+          "settings": {
+            "title": "⭐⭐⭐⭐⭐ — James T.",
+            "text": "<p>\"Finally found a gift shop with genuinely unique items. Everything is so modern and well-made. The shipping was fast and the gift wrapping was stunning. Highly recommend.\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "review-3": {
+          "type": "column",
+          "settings": {
+            "title": "⭐⭐⭐⭐⭐ — Linda K.",
+            "text": "<p>\"I had no idea what to get my husband for our anniversary, so I messaged ModernTimez for advice. They replied within hours with the perfect suggestion. Outstanding service!\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "review-1",
+        "review-2",
+        "review-3"
+      ],
+      "settings": {
+        "title": "What Our Customers Say",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "newsletter-signup": {
+      "type": "newsletter",
+      "settings": {
+        "heading": "Get Gift Ideas Delivered to Your Inbox",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "gift-guide-cta": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Not Sure What to Get?",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our team loves helping people find the perfect gift. Tell us about the person, the occasion, and your budget — and we'll do the rest. Completely free, always personal.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ask for Gift Advice",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "Browse Gift Guides",
+            "button_link_2": "/blogs/gift-ideas",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "awards-hero",
+    "trust-badges",
+    "featured-collection",
+    "shop-by-occasion",
+    "testimonials",
+    "newsletter-signup",
+    "gift-guide-cta"
+  ]
+}
