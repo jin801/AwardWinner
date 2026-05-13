@@ -99,6 +99,24 @@
     "shop-by-occasion": {
       "type": "multicolumn",
       "blocks": {
+        "corporate": {
+          "type": "column",
+          "settings": {
+            "title": "Corporate Awards & Gifts",
+            "text": "<p>Trophies, plaques, and recognition gifts for teams, clients, and events.</p>",
+            "link_label": "Shop Corporate",
+            "link": "/collections/corporate-awards"
+          }
+        },
+        "real-estate": {
+          "type": "column",
+          "settings": {
+            "title": "Real Estate Gifts",
+            "text": "<p>Memorable closing gifts and keepsakes that keep you top-of-mind with clients.</p>",
+            "link_label": "Shop Real Estate",
+            "link": "/collections/real-estate-gifts"
+          }
+        },
         "baptism": {
           "type": "column",
           "settings": {
@@ -108,11 +126,20 @@
             "link": "/collections/baptism-gifts"
           }
         },
+        "wedding": {
+          "type": "column",
+          "settings": {
+            "title": "Wedding Gifts",
+            "text": "<p>Elegant personalized gifts for couples, wedding parties, and celebrations.</p>",
+            "link_label": "Shop Wedding",
+            "link": "/collections/wedding-gifts"
+          }
+        },
         "graduation": {
           "type": "column",
           "settings": {
             "title": "Graduation Gifts",
-            "text": "<p>Celebrate big achievements with memorable gifts for graduates.</p>",
+            "text": "<p>Celebrate big achievements with engraved and personalized gifts for graduates.</p>",
             "link_label": "Shop Graduation",
             "link": "/collections/graduation-gifts"
           }
@@ -121,36 +148,19 @@
           "type": "column",
           "settings": {
             "title": "Father's Day Gifts",
-            "text": "<p>Thoughtful gifts for dads, grandfathers, and father figures.</p>",
+            "text": "<p>Thoughtful personalized gifts for dads, grandfathers, and father figures.</p>",
             "link_label": "Shop Father's Day",
             "link": "/collections/fathers-day-gifts"
-          }
-        },
-        "wedding": {
-          "type": "column",
-          "settings": {
-            "title": "Wedding Gifts",
-            "text": "<p>Elegant gifts for couples, wedding parties, and special celebrations.</p>",
-            "link_label": "Shop Wedding",
-            "link": "/collections/wedding-gifts"
-          }
-        },
-        "corporate": {
-          "type": "column",
-          "settings": {
-            "title": "Corporate Awards & Gifts",
-            "text": "<p>Awards, plaques, and professional gifts for teams, clients, and events.</p>",
-            "link_label": "Shop Corporate",
-            "link": "/collections/corporate-awards"
           }
         }
       },
       "block_order": [
+        "corporate",
+        "real-estate",
         "baptism",
-        "graduation",
-        "fathers_day",
         "wedding",
-        "corporate"
+        "graduation",
+        "fathers_day"
       ],
       "settings": {
         "title": "Shop by Occasion",
@@ -159,7 +169,7 @@
         "image_ratio": "adapt",
         "button_label": "",
         "button_link": "",
-        "columns_desktop": 5,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
         "color_scheme": "scheme-2",

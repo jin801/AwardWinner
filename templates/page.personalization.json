@@ -1,0 +1,319 @@
+{
+  "sections": {
+    "hero": {
+      "type": "rich-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "Custom Engraving & Personalization",
+            "text_style": "subtitle"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Every Gift, Made for One Person",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Personalization transforms a beautiful object into something irreplaceable. A name, a date, a message — engraved with precision and care. Here's everything you need to know about how we personalize your gifts.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Personalized Gifts",
+            "button_link": "/collections/personalized-gifts",
+            "button_style_secondary": false,
+            "button_label_2": "Ask a Question",
+            "button_link_2": "shopify://pages/contact",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": ["caption", "heading", "text", "button"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "methods": {
+      "type": "multicolumn",
+      "blocks": {
+        "laser": {
+          "type": "column",
+          "settings": {
+            "title": "Laser Engraving",
+            "text": "<p>Our primary engraving method. A laser burns your text or artwork directly into the surface — precise, permanent, and elegant. Works beautifully on crystal, glass, wood, metal, and acrylic.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "deep": {
+          "type": "column",
+          "settings": {
+            "title": "Deep Sandblast Engraving",
+            "text": "<p>Used on thick crystal and glass awards, sandblast engraving creates a dimensional, frosted effect that catches light beautifully. Ideal for premium recognition pieces and trophies.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "print": {
+          "type": "column",
+          "settings": {
+            "title": "Full-Color Printing",
+            "text": "<p>For logos, photos, and designs that need color, we use UV printing directly onto the surface. Perfect for branded corporate gifts with company colors and full artwork.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["laser", "deep", "print"],
+      "settings": {
+        "title": "Our Personalization Methods",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 48
+      }
+    },
+    "what-we-personalize": {
+      "type": "multicolumn",
+      "blocks": {
+        "awards": {
+          "type": "column",
+          "settings": {
+            "title": "Awards & Trophies",
+            "text": "<p>Recipient name, award title, organization name, date, and a custom message — all engraved on crystal, glass, or metal.</p>",
+            "link_label": "Shop Awards",
+            "link": "/collections/corporate-awards"
+          }
+        },
+        "plaques": {
+          "type": "column",
+          "settings": {
+            "title": "Plaques & Frames",
+            "text": "<p>Wall-mount plaques with custom text layouts. Perfect for employee recognition, service milestones, and office display.</p>",
+            "link_label": "Shop Plaques",
+            "link": "/collections/engraved-plaques"
+          }
+        },
+        "keepsakes": {
+          "type": "column",
+          "settings": {
+            "title": "Keepsakes & Gifts",
+            "text": "<p>Personalized gifts for life events: baptism crosses, wedding frames, closing-day plaques, graduation keepsakes, and more.</p>",
+            "link_label": "Shop Gifts",
+            "link": "/collections/personalized-gifts"
+          }
+        },
+        "corporate": {
+          "type": "column",
+          "settings": {
+            "title": "Branded Corporate Items",
+            "text": "<p>Add your company name, logo, and colors to any product. Great for client gifts, event giveaways, and team recognition.</p>",
+            "link_label": "Corporate Program",
+            "link": "shopify://pages/corporate"
+          }
+        }
+      },
+      "block_order": ["awards", "plaques", "keepsakes", "corporate"],
+      "settings": {
+        "title": "What We Can Personalize",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "how-to-order": {
+      "type": "multicolumn",
+      "blocks": {
+        "step-1": {
+          "type": "column",
+          "settings": {
+            "title": "1. Choose Your Product",
+            "text": "<p>Browse our collection and select the award, plaque, or gift you'd like personalized. Look for the engraving icon on product pages.</p>",
+            "link_label": "Browse Collection",
+            "link": "/collections/personalized-gifts"
+          }
+        },
+        "step-2": {
+          "type": "column",
+          "settings": {
+            "title": "2. Enter Your Text",
+            "text": "<p>On the product page, enter the personalization details: name, date, message, and any other text. We'll show you the character limits for each field.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "step-3": {
+          "type": "column",
+          "settings": {
+            "title": "3. We Send a Proof",
+            "text": "<p>Before we engrave anything, we email you a digital proof to review. You can request changes — there's no charge for revisions before approval.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "step-4": {
+          "type": "column",
+          "settings": {
+            "title": "4. Engraved & Shipped",
+            "text": "<p>Once you approve the proof, we engrave and ship your order. Personalized items are typically ready in 2–4 business days before shipping.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["step-1", "step-2", "step-3", "step-4"],
+      "settings": {
+        "title": "How to Order a Personalized Gift",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "q1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does personalization take?",
+            "icon": "clock",
+            "row_content": "<p>Most personalized items are engraved within <strong>1–2 business days</strong> of proof approval. If you need your order by a specific date, please note it in your order or <a href='/pages/contact'>contact us</a> and we'll do our best to accommodate you.</p>"
+          }
+        },
+        "q2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is there a minimum order for personalization?",
+            "icon": "check_mark",
+            "row_content": "<p>No minimum — we personalize orders of one item or one thousand. Pricing is per item; discounts apply automatically for larger quantities.</p>"
+          }
+        },
+        "q3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you engrave a logo or photo?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes. We can engrave vector logos (AI, EPS, or high-res SVG) and photos on most items. For photos, we recommend a clear, high-contrast image. Please <a href='/pages/contact'>contact us</a> with your artwork file before ordering to confirm compatibility.</p>"
+          }
+        },
+        "q4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if there's a mistake in the engraving?",
+            "icon": "return",
+            "row_content": "<p>If the mistake was on our end, we will re-engrave or replace the item at no charge. If the error was in the text you provided (a typo in your order), we'll work with you to find the best solution — often a discounted replacement. This is why we always send a proof first: please review it carefully before approving.</p>"
+          }
+        },
+        "q5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can personalized items be returned?",
+            "icon": "box",
+            "row_content": "<p>Personalized and custom-engraved items are non-returnable unless they arrive defective or the engraving error was made on our end. We recommend using our proof-approval step to confirm all details before production begins.</p>"
+          }
+        },
+        "q6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What fonts and styles are available?",
+            "icon": "chat_bubble",
+            "row_content": "<p>We offer a range of classic and modern fonts suitable for awards, plaques, and gifts. If you have a font preference, note it in your order or message us. For branded items, we can match your company's typography. <a href='/pages/contact'>Contact us</a> if you have specific requirements.</p>"
+          }
+        }
+      },
+      "block_order": ["q1", "q2", "q3", "q4", "q5", "q6"],
+      "settings": {
+        "caption": "",
+        "heading": "Personalization FAQs",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "cta": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Have a Custom Request?",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Not sure if we can do what you have in mind? Ask us. We love creative personalization projects and will tell you honestly what's possible — and what it will cost.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "Start Shopping",
+            "button_link_2": "/collections/personalized-gifts",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": ["hero", "methods", "what-we-personalize", "how-to-order", "faq", "cta"]
+}

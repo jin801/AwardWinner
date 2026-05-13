@@ -25,6 +25,80 @@
         "padding_bottom": 48
       }
     },
+    "faq-personalization": {
+      "type": "collapsible-content",
+      "blocks": {
+        "p1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Which products can be personalized or engraved?",
+            "icon": "check_mark",
+            "row_content": "<p>The majority of our products can be personalized. Any product page that has an engraving or personalization field in the product options supports custom text. If you're unsure about a specific item, <a href='/pages/contact'>contact us</a> before ordering and we'll confirm.</p>"
+          }
+        },
+        "p2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I submit my personalization text?",
+            "icon": "clipboard",
+            "row_content": "<p>On the product page, enter your personalization details in the designated text field before adding to cart. Include the recipient's name, dates, title, or any message you'd like engraved. Double-check spelling carefully — personalized items cannot be returned due to text errors you submitted.</p>"
+          }
+        },
+        "p3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will I see a proof before you engrave it?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes — for most personalized orders, we send a digital proof to your email before beginning engraving. You can request changes at no charge. Production begins only after you approve the proof. Please respond to proof emails promptly as delays in approval can affect your delivery date.</p>"
+          }
+        },
+        "p4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can you engrave a company logo or custom artwork?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes. We can engrave vector logos (AI, EPS, SVG, or high-resolution PNG) on most of our products. Please <a href='/pages/contact'>contact us before ordering</a> to share your artwork file so we can confirm it will engrave well on your chosen product.</p>"
+          }
+        },
+        "p5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does engraving add to the production time?",
+            "icon": "clock",
+            "row_content": "<p>Most personalized items are engraved within <strong>1–2 business days</strong> after proof approval. This is in addition to standard shipping time. If you have a firm deadline, please note it in your order or <a href='/pages/contact'>message us</a> — we'll do our best to accommodate rush timelines.</p>"
+          }
+        },
+        "p6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can personalized items be returned or exchanged?",
+            "icon": "return",
+            "row_content": "<p>Personalized and custom-engraved items are non-returnable because they are made specifically for you. If there is an error in the engraving that was <em>our fault</em>, we will re-produce and reship at no charge. This is why our proof approval step is so important — please review your proof carefully before approving.</p>"
+          }
+        },
+        "p7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer bulk engraving for corporate or event orders?",
+            "icon": "price_tag",
+            "row_content": "<p>Absolutely. We specialize in bulk personalized orders for corporate recognition programs, award ceremonies, and events. Discounts apply at 10+ units, with deeper pricing at larger quantities. Visit our <a href='/pages/corporate'>Corporate Gifting page</a> or <a href='/pages/contact'>contact us</a> for a custom quote.</p>"
+          }
+        }
+      },
+      "block_order": ["p1", "p2", "p3", "p4", "p5", "p6", "p7"],
+      "settings": {
+        "caption": "",
+        "heading": "Personalization & Engraving",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
     "faq-shipping": {
       "type": "collapsible-content",
       "blocks": {
@@ -258,5 +332,5 @@
       }
     }
   },
-  "order": ["hero", "faq-shipping", "faq-orders", "faq-returns", "faq-gifting", "cta"]
+  "order": ["hero", "faq-personalization", "faq-shipping", "faq-orders", "faq-returns", "faq-gifting", "cta"]
 }

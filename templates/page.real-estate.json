@@ -1,0 +1,293 @@
+{
+  "sections": {
+    "hero": {
+      "type": "rich-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "For Real Estate Professionals",
+            "text_style": "subtitle"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Closing Gifts That Keep You Top of Mind",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your clients just made the biggest purchase of their lives. Give them a personalized keepsake that celebrates the moment — and reminds them who made it happen. Engraved, elegant, and branded with your name if you choose.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Real Estate Gifts",
+            "button_link": "/collections/real-estate-gifts",
+            "button_style_secondary": false,
+            "button_label_2": "Request Agent Pricing",
+            "button_link_2": "shopify://pages/contact",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": ["caption", "heading", "text", "button"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "why-gifting": {
+      "type": "multicolumn",
+      "blocks": {
+        "col-1": {
+          "type": "column",
+          "settings": {
+            "title": "Generate More Referrals",
+            "text": "<p>A meaningful closing gift is one of the most talked-about touches in a real estate transaction. Clients who feel appreciated refer you. It's that simple.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "col-2": {
+          "type": "column",
+          "settings": {
+            "title": "Differentiate Your Brand",
+            "text": "<p>Most agents send a card or a bottle of wine. A personalized keepsake with the closing date and address engraved on it is something they'll display for years — with your name on it.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "col-3": {
+          "type": "column",
+          "settings": {
+            "title": "Effortless to Order",
+            "text": "<p>Order for one client or fifty. Add agent branding, personalized engraving, and gift wrapping. We ship directly to the client — you just send us the details.</p>",
+            "link_label": "Get Started",
+            "link": "shopify://pages/contact"
+          }
+        }
+      },
+      "block_order": ["col-1", "col-2", "col-3"],
+      "settings": {
+        "title": "Why Top Agents Gift with ModernTimez",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 48
+      }
+    },
+    "gift-types": {
+      "type": "multicolumn",
+      "blocks": {
+        "closing": {
+          "type": "column",
+          "settings": {
+            "title": "Closing Day Keepsakes",
+            "text": "<p>Engraved frames, plaques, and keepsakes personalized with the client's name, closing date, and new address. A moment they'll treasure forever.</p>",
+            "link_label": "Shop Closing Gifts",
+            "link": "/collections/real-estate-gifts"
+          }
+        },
+        "new-home": {
+          "type": "column",
+          "settings": {
+            "title": "New Home Gifts",
+            "text": "<p>Personalized doormats, engraved cutting boards, house-shaped keepsakes, and home accessories that celebrate moving in.</p>",
+            "link_label": "Shop New Home",
+            "link": "/collections/new-home-gifts"
+          }
+        },
+        "referral": {
+          "type": "column",
+          "settings": {
+            "title": "Referral Thank-You Gifts",
+            "text": "<p>Show gratitude to past clients who sent you business. Thoughtful, personalized gifts that reinforce the relationship and encourage future referrals.</p>",
+            "link_label": "Shop Thank-You Gifts",
+            "link": "/collections/personalized-gifts"
+          }
+        },
+        "branded": {
+          "type": "column",
+          "settings": {
+            "title": "Agent-Branded Gifts",
+            "text": "<p>Add your name, photo, or brokerage logo to gifts. Every time they look at it, they'll think of you — the agent who found them their dream home.</p>",
+            "link_label": "Request Branded Gifts",
+            "link": "shopify://pages/contact"
+          }
+        }
+      },
+      "block_order": ["closing", "new-home", "referral", "branded"],
+      "settings": {
+        "title": "Gift Options for Every Occasion",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "how-it-works": {
+      "type": "multicolumn",
+      "blocks": {
+        "step-1": {
+          "type": "column",
+          "settings": {
+            "title": "1. Pick Your Gift",
+            "text": "<p>Browse our real estate collection or contact us for personalized recommendations based on your client and budget.</p>",
+            "link_label": "Browse Gifts",
+            "link": "/collections/real-estate-gifts"
+          }
+        },
+        "step-2": {
+          "type": "column",
+          "settings": {
+            "title": "2. Add the Details",
+            "text": "<p>Provide the client's name, closing date, address, and any personal message. We'll engrave it exactly as specified.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "step-3": {
+          "type": "column",
+          "settings": {
+            "title": "3. We Ship Directly",
+            "text": "<p>We package beautifully and ship straight to your client's new address — no pricing included. A tracking number comes to you.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["step-1", "step-2", "step-3"],
+      "settings": {
+        "title": "Simple. Personal. Done.",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "testimonials": {
+      "type": "multicolumn",
+      "blocks": {
+        "t-1": {
+          "type": "column",
+          "settings": {
+            "title": "★★★★★ — David L., Real Estate Agent",
+            "text": "<p>\"I've been using ModernTimez for closing gifts for two years. Every client loves the engraved keepsake — and I've gotten referrals directly because of it. Worth every penny.\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "t-2": {
+          "type": "column",
+          "settings": {
+            "title": "★★★★★ — Melissa R., Realtor",
+            "text": "<p>\"They engraved the closing date and new address on a beautiful plaque. My clients had tears in their eyes. It's now hanging in their living room. I couldn't ask for a better gift.\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "t-3": {
+          "type": "column",
+          "settings": {
+            "title": "★★★★★ — James K., Broker",
+            "text": "<p>\"ModernTimez handles all our agent closing gifts in bulk. They ship directly to clients so I don't have to coordinate anything. Professional, reliable, and the quality is excellent.\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["t-1", "t-2", "t-3"],
+      "settings": {
+        "title": "What Agents Are Saying",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "agent-program": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Our Agent Gifting Program",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Order 5+ gifts per month and unlock agent pricing, a dedicated account rep, and streamlined ordering. We'll learn your preferences and make every closing gift effortless to arrange.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Inquire About Agent Pricing",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "Browse Gifts First",
+            "button_link_2": "/collections/real-estate-gifts",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    }
+  },
+  "order": ["hero", "why-gifting", "gift-types", "how-it-works", "testimonials", "agent-program"]
+}

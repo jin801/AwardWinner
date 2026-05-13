@@ -1,0 +1,311 @@
+{
+  "sections": {
+    "hero": {
+      "type": "rich-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "Corporate Gifting Program",
+            "text_style": "subtitle"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Awards & Gifts That Recognize What Matters",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From employee-of-the-month trophies to executive retirement plaques, we help businesses and organizations create recognition moments that people remember. Bulk pricing, custom engraving, and white-glove fulfillment — all in one place.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Request a Bulk Quote",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "Browse Corporate Awards",
+            "button_link_2": "/collections/corporate-awards",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": ["caption", "heading", "text", "button"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "benefits": {
+      "type": "multicolumn",
+      "blocks": {
+        "col-1": {
+          "type": "column",
+          "settings": {
+            "title": "Custom Engraving",
+            "text": "<p>Every award is laser-engraved with your recipient's name, title, achievement, and company logo. No minimum order required for personalization.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "col-2": {
+          "type": "column",
+          "settings": {
+            "title": "Bulk Order Pricing",
+            "text": "<p>The more you order, the more you save. Volume discounts start at 10 units. Perfect for annual award ceremonies, team events, and employee recognition programs.</p>",
+            "link_label": "Get a Quote",
+            "link": "shopify://pages/contact"
+          }
+        },
+        "col-3": {
+          "type": "column",
+          "settings": {
+            "title": "White-Glove Fulfillment",
+            "text": "<p>We handle production, quality control, packaging, and shipping. Drop-ship directly to your event venue or individual recipients — we coordinate everything.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "col-4": {
+          "type": "column",
+          "settings": {
+            "title": "Rush Orders Available",
+            "text": "<p>Need awards fast? We offer expedited production on most items. Contact us with your deadline and we'll do everything we can to deliver on time.</p>",
+            "link_label": "Contact Us",
+            "link": "shopify://pages/contact"
+          }
+        },
+        "col-5": {
+          "type": "column",
+          "settings": {
+            "title": "Branded Packaging",
+            "text": "<p>Add your company logo to gift boxes, ribbon, and presentation materials. Recipients will remember your brand from the moment they open the box.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "col-6": {
+          "type": "column",
+          "settings": {
+            "title": "Dedicated Account Rep",
+            "text": "<p>Large orders and ongoing programs get a dedicated contact. We learn your brand, your preferences, and your people — so ordering is easy every time.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["col-1", "col-2", "col-3", "col-4", "col-5", "col-6"],
+      "settings": {
+        "title": "Built for Business",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "categories": {
+      "type": "multicolumn",
+      "blocks": {
+        "awards": {
+          "type": "column",
+          "settings": {
+            "title": "Trophies & Crystal Awards",
+            "text": "<p>Premium crystal, glass, and metal awards for top performers, annual ceremonies, and executive recognition. Laser-engraved to perfection.</p>",
+            "link_label": "Shop Awards",
+            "link": "/collections/corporate-awards"
+          }
+        },
+        "plaques": {
+          "type": "column",
+          "settings": {
+            "title": "Engraved Plaques",
+            "text": "<p>Wall plaques in wood, metal, and acrylic — ideal for \"Employee of the Month,\" service milestones, board recognition, and office display.</p>",
+            "link_label": "Shop Plaques",
+            "link": "/collections/engraved-plaques"
+          }
+        },
+        "gifts": {
+          "type": "column",
+          "settings": {
+            "title": "Corporate Client Gifts",
+            "text": "<p>Personalized keepsakes for clients, partners, and VIPs. From engraved desk accessories to premium gift sets — gifts they'll use and remember.</p>",
+            "link_label": "Shop Gifts",
+            "link": "/collections/personalized-gifts"
+          }
+        }
+      },
+      "block_order": ["awards", "plaques", "gifts"],
+      "settings": {
+        "title": "What We Offer",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "how-it-works": {
+      "type": "multicolumn",
+      "blocks": {
+        "step-1": {
+          "type": "column",
+          "settings": {
+            "title": "1. Request a Quote",
+            "text": "<p>Tell us what you need: product type, quantity, engraving details, delivery date, and budget. We'll respond within 1 business day with pricing and options.</p>",
+            "link_label": "Start Here",
+            "link": "shopify://pages/contact"
+          }
+        },
+        "step-2": {
+          "type": "column",
+          "settings": {
+            "title": "2. Approve Your Proof",
+            "text": "<p>We'll send a digital proof of your engraving layout before production begins. You can request revisions at no charge until you're 100% satisfied.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "step-3": {
+          "type": "column",
+          "settings": {
+            "title": "3. We Produce & Ship",
+            "text": "<p>Once approved, we move into production. Your order ships with full tracking, delivered to your door or directly to your event venue.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["step-1", "step-2", "step-3"],
+      "settings": {
+        "title": "How Bulk Ordering Works",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "testimonials": {
+      "type": "multicolumn",
+      "blocks": {
+        "t-1": {
+          "type": "column",
+          "settings": {
+            "title": "★★★★★ — Rachel D., HR Director",
+            "text": "<p>\"We've used ModernTimez for our annual employee awards for three years running. The quality is exceptional, the engraving is always perfect, and they never miss our deadline. Highly recommended.\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "t-2": {
+          "type": "column",
+          "settings": {
+            "title": "★★★★★ — Marcus T., Event Planner",
+            "text": "<p>\"Ordered 85 crystal awards for a gala with a 2-week turnaround. Every single one arrived flawlessly engraved and packaged. The account rep kept me updated the whole time. Outstanding.\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "t-3": {
+          "type": "column",
+          "settings": {
+            "title": "★★★★★ — Priya S., Operations Manager",
+            "text": "<p>\"From custom plaques for our leadership team to personalized thank-you gifts for clients — ModernTimez handles it all. Professional, reliable, and the products look incredible.\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["t-1", "t-2", "t-3"],
+      "settings": {
+        "title": "Trusted by Businesses & Organizations",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "cta": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to Recognize Your People?",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tell us about your program and we'll put together a proposal within 1 business day. No commitment required — just a conversation.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Request a Corporate Quote",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "Browse All Awards",
+            "button_link_2": "/collections/corporate-awards",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    }
+  },
+  "order": ["hero", "benefits", "categories", "how-it-works", "testimonials", "cta"]
+}

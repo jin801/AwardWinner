@@ -13,26 +13,28 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Gifts That Mean Something",
+            "heading": "Recognition That Lasts a Lifetime",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>ModernTimez was born from a simple idea: finding the perfect gift should be a joy, not a chore. We curate modern, thoughtful gifts for every person and every occasion — from birthdays to weddings, holidays to \"just because\" moments.</p>"
+            "text": "<p>ModernTimez was built around one belief: that every achievement, milestone, and meaningful moment deserves to be honored with something permanent. We specialize in custom awards, personalized gifts, and engraved recognition products — for corporations, real estate professionals, families, and organizations of every kind.</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Shop All Gifts",
+            "button_label": "Shop Awards & Gifts",
             "button_link": "shopify://collections/all"
           }
         }
       },
       "block_order": ["caption", "heading", "text", "button"],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-3",
         "full_width": true,
         "padding_top": 60,
@@ -52,14 +54,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Modern Gifts for Modern People",
+            "heading": "Award & Personalization Specialists Since 2006",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>We started ModernTimez Gift Shop because we were tired of gifting the same generic candles and gift sets. Every product in our collection is hand-selected for quality, uniqueness, and that \"wow\" factor that makes a gift truly memorable.</p><p>From sleek home accessories to personalized keepsakes, our range spans every budget and every taste. Whether you're shopping for your best friend, your boss, or someone who \"has everything\" — we've got something that will make them smile.</p>"
+            "text": "<p>We started ModernTimez with a simple conviction: the right gift at the right moment changes how people feel about themselves and the people who gave it. For nearly two decades, we've been crafting custom trophies, engraved plaques, crystal awards, and personalized keepsakes for businesses, real estate professionals, schools, churches, and families.</p><p>Our work spans boardrooms and baptismal fonts, sales kick-offs and wedding receptions, championship seasons and retirement celebrations. Whatever the achievement — we help you honor it beautifully.</p>"
           }
         },
         "button": {
@@ -85,40 +87,40 @@
         "padding_bottom": 36
       }
     },
-    "values": {
+    "audiences": {
       "type": "multicolumn",
       "blocks": {
-        "col-1": {
+        "corporate": {
           "type": "column",
           "settings": {
-            "title": "Carefully Curated",
-            "text": "<p>Every item in our store is hand-picked by our team. We test, assess, and select only products that we'd be proud to give to the people we love.</p>",
-            "link_label": "",
-            "link": ""
+            "title": "Businesses & Organizations",
+            "text": "<p>Employee recognition, annual award ceremonies, executive retirement gifts, client appreciation, and branded corporate gifts — with bulk pricing and dedicated support.</p>",
+            "link_label": "Corporate Program",
+            "link": "shopify://pages/corporate"
           }
         },
-        "col-2": {
+        "real-estate": {
           "type": "column",
           "settings": {
-            "title": "Modern & Unique",
-            "text": "<p>We stay ahead of trends to bring you gifts that feel fresh and contemporary — never generic, never forgettable. Find things here that you won't find at the mall.</p>",
-            "link_label": "",
-            "link": ""
+            "title": "Real Estate Professionals",
+            "text": "<p>Personalized closing gifts that cement client relationships and generate referrals. Engraved with the closing date, address, and your name — shipped directly to the new homeowner.</p>",
+            "link_label": "Real Estate Gifts",
+            "link": "shopify://pages/real-estate"
           }
         },
-        "col-3": {
+        "life-events": {
           "type": "column",
           "settings": {
-            "title": "Always Memorable",
-            "text": "<p>The best gifts are ones that people remember years later. We focus on items with lasting value — things that are used, displayed, or treasured long after the wrapping paper is gone.</p>",
-            "link_label": "",
-            "link": ""
+            "title": "Life's Milestone Moments",
+            "text": "<p>Baptism, First Communion, graduation, wedding, anniversary, retirement — every major milestone deserves a keepsake that captures the meaning of the moment.</p>",
+            "link_label": "Shop by Occasion",
+            "link": "shopify://collections/personalized-gifts"
           }
         }
       },
-      "block_order": ["col-1", "col-2", "col-3"],
+      "block_order": ["corporate", "real-estate", "life-events"],
       "settings": {
-        "title": "What Makes Us Different",
+        "title": "Who We Serve",
         "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "adapt",
@@ -134,32 +136,87 @@
         "padding_bottom": 48
       }
     },
+    "values": {
+      "type": "multicolumn",
+      "blocks": {
+        "col-1": {
+          "type": "column",
+          "settings": {
+            "title": "Precision Engraving",
+            "text": "<p>Every name, date, and message is laser-engraved with exact precision. We review every proof before production and send it to you for approval — so what you get is exactly what you wanted.</p>",
+            "link_label": "How We Personalize",
+            "link": "shopify://pages/personalization"
+          }
+        },
+        "col-2": {
+          "type": "column",
+          "settings": {
+            "title": "Premium Materials",
+            "text": "<p>We work with optical crystal, solid glass, genuine wood, brushed metal, and quality acrylic. Our awards are built to be displayed proudly for decades — not tucked away in a drawer.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "col-3": {
+          "type": "column",
+          "settings": {
+            "title": "White-Glove Service",
+            "text": "<p>From quote to delivery, we make the process effortless. We send proofs, confirm details, handle packaging, and ship directly to recipients. You get the credit; we do the work.</p>",
+            "link_label": "Contact Us",
+            "link": "shopify://pages/contact"
+          }
+        }
+      },
+      "block_order": ["col-1", "col-2", "col-3"],
+      "settings": {
+        "title": "What Sets Us Apart",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
     "promise": {
       "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Our Promise to You",
+            "heading": "Our Promise",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>We stand behind every product we sell. If you're not completely satisfied with your purchase, we make returns easy and hassle-free. Our team is always available to help you find the perfect gift.</p><p>Thank you for choosing ModernTimez. We're honoured to be part of your special moments.</p>"
+            "text": "<p>We don't ship anything we aren't proud of. Every order goes through quality control before it leaves our facility. If something isn't right — the engraving, the packaging, the product itself — we fix it. No arguments, no hassle.</p><p>Thank you for trusting ModernTimez with your most meaningful moments. We take that trust seriously.</p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "Get in Touch",
-            "button_link": "shopify://pages/contact"
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "Shop Awards",
+            "button_link_2": "shopify://collections/all",
+            "button_style_secondary_2": true
           }
         }
       },
       "block_order": ["heading", "text", "button"],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-1",
         "full_width": false,
         "padding_top": 48,
@@ -167,5 +224,5 @@
       }
     }
   },
-  "order": ["hero", "story", "values", "promise"]
+  "order": ["hero", "story", "audiences", "values", "promise"]
 }
